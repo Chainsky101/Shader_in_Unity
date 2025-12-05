@@ -13,14 +13,13 @@ Shader "Custom/Lesson10"
         LOD 200
 
         // without pass in the SubShader of Surface Shader
-        
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
         #pragma surface surf Standard fullforwardshadows
 
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
-
+        
         sampler2D _MainTex;
 
         struct Input
